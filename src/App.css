@@ -19,7 +19,7 @@
     --whiteColorDeam:hsl(0, 0%, 93%);
     --greyText:rgb(190, 190, 190);
     --inputColor:rgb(239, 239, 239);
-    bodyColor:rgb(240, 240, 246);
+    --bodyColor:rgb(240, 240, 246);
     --cardBG:rgb(225, 225, 235);
 }
 
@@ -44,3 +44,47 @@ li{
     font-size: 2rem;
     cursor: pointer;
 }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .6rem 1.5rem;
+    background: var(--gradientColor);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+}
+
+.btn  a{
+    color: var(--whiteColor);
+    font-weight: 500;
+
+}
+
+.btn:hover{
+    background: var(--SecondaryColor);
+}
+
+img, vedio{
+    width: 100%;
+    height: auto;
+}
+
+input{
+    font-size: 100%;
+}
+
+body{
+    background: var(--bodyColor);
+}
+
+/* Guys this is a default styling that will apply to all the sections, Please be patient  you will see how it works. follow me through. thanks */  
